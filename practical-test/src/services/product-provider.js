@@ -13,7 +13,7 @@ const mergeProducts = (acc, curr) => {
 const getBranches = () =>
   Promise.all(
     [1, 2, 3].map((branchNumber) =>
-      fetch(`/api/branch${branchNumber}.json`).then((res) => res.json())
+      fetch(`api/branch${branchNumber}.json`).then((res) => res.json())
     )
   );
 
