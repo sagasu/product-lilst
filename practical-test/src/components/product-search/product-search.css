@@ -1,0 +1,11 @@
+.search-container {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+  
+.search-label {
+    margin-right: 5px;
+}
+  
